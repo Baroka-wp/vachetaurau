@@ -7,7 +7,7 @@ const vacheTaurau = (userHand) => {
                               array.includes(parseInt(h,10)) ?
                               vache += 1 : "" );
 
-  return `${taurau} Taurau${taurau>1 ? "x":""} & ${vache} Vache${vache>1 ? "s":""}"`
+  return `${taurau} bull${taurau>1 ? "s":""} & ${vache} cow${vache>1 ? "s":""}"`
 }
 
 
